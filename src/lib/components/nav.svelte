@@ -1,7 +1,7 @@
 <script>
 	let isOpen = false;
     let menuitems = [{id:1,name:'Home',route:'/'},{id:2,name:'Blog',route:'/Blogs'},{id:3,name:'Self',route:'/Self'},{id:4,name:'How?',route:'/How?'}]
-	let logo = '$lib/assets/logo';
+	let logo = 'logo.png';
 </script>
 
 <nav

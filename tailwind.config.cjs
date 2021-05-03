@@ -24,9 +24,13 @@ module.exports = {
 						'light-blue': colors.lightBlue,
 						cyan: colors.cyan,
 						rose:colors.rose,
+						orange:colors.orange,
 						emerald:colors.emerald,
 						teal:colors.teal,
-						blueGray:colors.blueGray
+						blueGray:colors.blueGray,
+						lime:colors.lime,
+						amber:colors.amber,
+						fuchsia:colors.fuchsia,
 					},
 					fontFamily:{
 						'jetMono':['JetBrains Mono', 'monospace'],
