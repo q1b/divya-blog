@@ -72,7 +72,7 @@ const template = ({head, body}) => `<!DOCTYPE html>\r
 		<style>\r
 			@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&display=swap');\r
 		</style>\r
-		` + head + '\r\n	</head>\r\n	<body style="display:flex; flex-direction: column; overflow-x: hidden;">\r\n		<div id="svelte">' + body + "</div>\r\n	</body>\r\n</html>\r\n";
+		` + head + '\r\n	</head>\r\n	<body>\r\n		<div id="svelte">' + body + "</div>\r\n	</body>\r\n</html>\r\n";
 let options = null;
 function init(settings) {
   set_paths(settings.paths);

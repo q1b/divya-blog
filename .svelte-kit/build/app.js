@@ -4,7 +4,7 @@ import { set_paths } from './runtime/paths.js';
 import { set_prerendering } from './runtime/env.js';
 import * as user_hooks from "./hooks.js";
 
-const template = ({ head, body }) => "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\t<head>\r\n\t\t<meta charset=\"utf-8\" />\r\n\t\t<link rel=\"icon\" href=\"/favicon.ico\" />\r\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\r\n\t\t<style>\r\n\t\t\t@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&display=swap');\r\n\t\t</style>\r\n\t\t" + head + "\r\n\t</head>\r\n\t<body style=\"display:flex; flex-direction: column; overflow-x: hidden;\">\r\n\t\t<div id=\"svelte\">" + body + "</div>\r\n\t</body>\r\n</html>\r\n";
+const template = ({ head, body }) => "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\t<head>\r\n\t\t<meta charset=\"utf-8\" />\r\n\t\t<link rel=\"icon\" href=\"/favicon.ico\" />\r\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\r\n\t\t<style>\r\n\t\t\t@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&display=swap');\r\n\t\t</style>\r\n\t\t" + head + "\r\n\t</head>\r\n\t<body>\r\n\t\t<div id=\"svelte\">" + body + "</div>\r\n\t</body>\r\n</html>\r\n";
 
 let options = null;
 
