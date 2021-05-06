@@ -124,8 +124,8 @@
     </div>
   </div>
 </nav>
-<div class="{isOpen ? '':'translate-x-48'} transform transition-transform ease-in-out delay-300 absolute z-10 flex justify-end w-full sm:hidden">
-  <div class=" {isOpen ? '!opacity-100 ':'opacity-0'} -mt-1 grid max-w-[200px] transition-opacity ease-out delay-300 absolute w-[93%] h-[80vh] grid-cols-1 pt-5 text-2xl place-content-around bg-gradient-to-l from-cyan-500 to-teal-400 dark:from-blueGray-700 dark:via-blueGray-800 dark:to-[#111879DD] rounded-bl-xl shadow-lg justify-items-center pb-7">
+<div class="{isOpen ? '!translate-y-0':''} translate-y-[-35rem] transform transition-transform ease-in-out delay-300 absolute z-10 flex justify-end w-full sm:hidden">
+  <div class=" {isOpen ? '!opacity-100 ':''} opacity-0 -mt-1 grid max-w-[200px] transition-opacity ease-out delay-300 absolute w-[93%] h-[80vh] grid-cols-1 pt-5 text-2xl place-content-around bg-gradient-to-l from-cyan-500 to-teal-400 dark:from-blueGray-700 dark:via-blueGray-800 dark:to-[#111879DD] rounded-bl-xl shadow-lg justify-items-center pb-7">
 	{#each menuitems as menuitem (menuitem.id)}
 	<div>
 		<a on:click={()=>{isOpen = !isOpen}} href={menuitem.route} class="block px-2 py-1 mt-1 text-white rounded-xl font-jetMono">
