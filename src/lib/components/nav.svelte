@@ -15,7 +15,7 @@
 	<div class="flex items-center transition-opacity opacity-90 group-hover:opacity-100">
     <!--Logo-->
 		<img
-      {logo}
+      src={logo}
 			class="object-contain w-auto h-14 p-1 sm:p-0.5 bg-white rounded-full"
 			alt=""
 		/>

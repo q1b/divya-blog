@@ -1,6 +1,6 @@
 {
-  "name": "~TODO~",
-  "version": "0.0.1",
+  "name": "~BLOG~",
+  "version": "1.1",
   "scripts": {
     "dev": "svelte-kit dev",
     "build": "svelte-kit build",
@@ -8,8 +8,7 @@
     "lint": "eslint --ignore-path .gitignore ."
   },
   "devDependencies": {
-    "@sveltejs/adapter-netlify": "^1.0.0-next.11",
-    "@sveltejs/adapter-static": "^1.0.0-next.8",
+    "@sveltejs/adapter-netlify": "^1.0.0-next.9",
     "@sveltejs/kit": "next",
     "autoprefixer": "^10.2.5",
     "cssnano": "^5.0.1",
