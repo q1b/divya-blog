@@ -18,9 +18,9 @@ export function init(settings) {
 		amp: false,
 		dev: false,
 		entry: {
-			file: "/./_app/start-04e4a1e7.js",
+			file: "/./_app/start-4c582273.js",
 			css: ["/./_app/assets/start-0826e215.css"],
-			js: ["/./_app/start-04e4a1e7.js","/./_app/chunks/vendor-3cd11a5d.js"]
+			js: ["/./_app/start-4c582273.js","/./_app/chunks/vendor-3cd11a5d.js"]
 		},
 		fetched: undefined,
 		floc: false,
@@ -49,7 +49,7 @@ const d = decodeURIComponent;
 const empty = () => ({});
 
 const manifest = {
-	assets: [{"file":"logo.png","size":4101,"type":"image/png"}],
+	assets: [{"file":"logo.png","size":4101,"type":"image/png"},{"file":"favicon.ico","size":15406,"type":"image/vnd.microsoft.icon"}],
 	layout: "src/routes/$layout.svelte",
 	error: ".svelte-kit/build/components/error.svelte",
 	routes: [
@@ -103,7 +103,7 @@ const module_lookup = {
 	"src/routes/$layout.svelte": () => import("..\\..\\src\\routes\\$layout.svelte"),".svelte-kit/build/components/error.svelte": () => import("./components\\error.svelte"),"src/routes/index.svelte": () => import("..\\..\\src\\routes\\index.svelte"),"src/routes/Blogs/index.svelte": () => import("..\\..\\src\\routes\\Blogs\\index.svelte"),"src/routes/Blogs/[slug].svelte": () => import("..\\..\\src\\routes\\Blogs\\[slug].svelte"),"src/routes/Self/index.svelte": () => import("..\\..\\src\\routes\\Self\\index.svelte"),"src/routes/How/index.svelte": () => import("..\\..\\src\\routes\\How\\index.svelte")
 };
 
-const metadata_lookup = {"src/routes/$layout.svelte":{"entry":"/./_app/pages/$layout.svelte-955b75ce.js","css":["/./_app/assets/pages/$layout.svelte-f2b4e5fc.css"],"js":["/./_app/pages/$layout.svelte-955b75ce.js","/./_app/chunks/vendor-3cd11a5d.js"],"styles":null},".svelte-kit/build/components/error.svelte":{"entry":"/./_app/error.svelte-244c4c97.js","css":[],"js":["/./_app/error.svelte-244c4c97.js","/./_app/chunks/vendor-3cd11a5d.js"],"styles":null},"src/routes/index.svelte":{"entry":"/./_app/pages/index.svelte-8070f46c.js","css":[],"js":["/./_app/pages/index.svelte-8070f46c.js","/./_app/chunks/vendor-3cd11a5d.js","/./_app/chunks/db-978df012.js"],"styles":null},"src/routes/Blogs/index.svelte":{"entry":"/./_app/pages/Blogs/index.svelte-00fd8b75.js","css":[],"js":["/./_app/pages/Blogs/index.svelte-00fd8b75.js","/./_app/chunks/vendor-3cd11a5d.js","/./_app/chunks/db-978df012.js"],"styles":null},"src/routes/Blogs/[slug].svelte":{"entry":"/./_app/pages/Blogs/[slug].svelte-ae709654.js","css":[],"js":["/./_app/pages/Blogs/[slug].svelte-ae709654.js","/./_app/chunks/vendor-3cd11a5d.js","/./_app/chunks/db-978df012.js"],"styles":null},"src/routes/Self/index.svelte":{"entry":"/./_app/pages/Self/index.svelte-a3fa72d4.js","css":[],"js":["/./_app/pages/Self/index.svelte-a3fa72d4.js","/./_app/chunks/vendor-3cd11a5d.js"],"styles":null},"src/routes/How/index.svelte":{"entry":"/./_app/pages/How/index.svelte-7aadbe14.js","css":[],"js":["/./_app/pages/How/index.svelte-7aadbe14.js","/./_app/chunks/vendor-3cd11a5d.js"],"styles":null}};
+const metadata_lookup = {"src/routes/$layout.svelte":{"entry":"/./_app/pages/$layout.svelte-147b087e.js","css":["/./_app/assets/pages/$layout.svelte-f2b4e5fc.css"],"js":["/./_app/pages/$layout.svelte-147b087e.js","/./_app/chunks/vendor-3cd11a5d.js"],"styles":null},".svelte-kit/build/components/error.svelte":{"entry":"/./_app/error.svelte-244c4c97.js","css":[],"js":["/./_app/error.svelte-244c4c97.js","/./_app/chunks/vendor-3cd11a5d.js"],"styles":null},"src/routes/index.svelte":{"entry":"/./_app/pages/index.svelte-bf39b153.js","css":[],"js":["/./_app/pages/index.svelte-bf39b153.js","/./_app/chunks/vendor-3cd11a5d.js","/./_app/chunks/db-978df012.js"],"styles":null},"src/routes/Blogs/index.svelte":{"entry":"/./_app/pages/Blogs/index.svelte-00fd8b75.js","css":[],"js":["/./_app/pages/Blogs/index.svelte-00fd8b75.js","/./_app/chunks/vendor-3cd11a5d.js","/./_app/chunks/db-978df012.js"],"styles":null},"src/routes/Blogs/[slug].svelte":{"entry":"/./_app/pages/Blogs/[slug].svelte-ae709654.js","css":[],"js":["/./_app/pages/Blogs/[slug].svelte-ae709654.js","/./_app/chunks/vendor-3cd11a5d.js","/./_app/chunks/db-978df012.js"],"styles":null},"src/routes/Self/index.svelte":{"entry":"/./_app/pages/Self/index.svelte-a3fa72d4.js","css":[],"js":["/./_app/pages/Self/index.svelte-a3fa72d4.js","/./_app/chunks/vendor-3cd11a5d.js"],"styles":null},"src/routes/How/index.svelte":{"entry":"/./_app/pages/How/index.svelte-7aadbe14.js","css":[],"js":["/./_app/pages/How/index.svelte-7aadbe14.js","/./_app/chunks/vendor-3cd11a5d.js"],"styles":null}};
 
 async function load_component(file) {
 	return {

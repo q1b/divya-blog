@@ -30,9 +30,9 @@
 						Believe me! You Gonna win One day, When you really understand What I meant by this.
 					</h1>
 				</div>
-				<a href='./space.html' class="px-2 py-1 bg-black cursor-pointer opacity-90 group-hover:opacity-100 w-max">
+				<div class="px-2 py-1 bg-black cursor-pointer opacity-90 group-hover:opacity-100 w-max">
 					<h1 class="text-sm text-yellow-300">Click For More!</h1>
-				</a>
+				</div>
 			</article>
 
 			<article class="grid grid-cols-1 group">
